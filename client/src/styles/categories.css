@@ -1,0 +1,38 @@
+/* categories.css */
+
+/* Style for the container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the individual category card */
+  .category-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  /* Style for the category link */
+  .category-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .category-link:hover {
+    color: #555;
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (min-width: 768px) {
+    .category-card {
+      width: 48%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .category-card {
+      width: 31.3%;
+    }
+  }
+  
