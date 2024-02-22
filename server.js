@@ -43,7 +43,7 @@ app.use('/api/v1/product',productRoutes)
  })
 
 //port
-const PORT = process.env.DEV_MODE || 8080;
+const PORT = process.env.PORT || 8080;
 
 //RUN LISTEN
 app.listen(PORT,() => {
